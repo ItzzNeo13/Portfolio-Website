@@ -1,6 +1,6 @@
 Profile website
 
-Hosted on [Github Pages](https://pages.github.com/)
+Hosted on Netlify
 
 Icons on About Tab downloaded from [Icons8](https://icons8.com/)
 
