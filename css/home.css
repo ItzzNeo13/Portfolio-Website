@@ -245,4 +245,11 @@ body{
     .heading h2{
         font-size: 25px;
     }
+
+    .name {
+        margin-top: 50px;
+    }
+    .work {
+        margin-top: 100px;
+    }
 }
