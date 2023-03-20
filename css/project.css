@@ -9,46 +9,47 @@ h2{
     margin-bottom: 50px;
 }
 
-h4{
+.container {
+    display: flex;
     text-align: center;
-    /* margin-right: 40px; */
-    color: #ffffff;
+    justify-content: center;
+  }
+  .project-card {
+    margin-left: auto;
+    width: 350px;
+    background-color: #10100D;
+    border-radius: 5px;
+    border-color: aqua;
+    padding: 5px;
+    display: flex;
     font-family: 'Jost', sans-serif;
-    padding: 5px 0 5px 0;
-}
-
-
-p{
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Jost', sans-serif;
-    padding: 5px 0 5px 0;
-    margin-bottom: 20px;
-}
-
-#c1{
-    text-align: center;
-    text-decoration: none;
-    color: #046E8F;
-    font-family: 'Jost', sans-serif;
-    padding: 5px 0 5px 0;
-}
-
-#c2{
-    text-align: center;
-    text-decoration: none;
-    color: #046E8F;
-    font-family: 'Jost', sans-serif;
-    padding: 5px 0 5px 0;
-}
-
-#c3{
-    text-align: center;
-    text-decoration: none;
-    color: #046E8F;
-    font-family: 'Jost', sans-serif;
-    padding: 5px 0 5px 0; 
-}
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 15px;
+  }
+  
+  .project-card p {
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 0.5px;
+  }
+  
+  button {
+    margin: 10px 0;
+    background-color: #111110;
+    border: none;
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: dimgrey;
+  }
 
 #home{
     text-align: center;
@@ -71,7 +72,7 @@ p{
 }
 
 @media screen and (max-width: 1024px) {
-    h3{
+    h2{
         text-align: center;
         color: #ffffff;
         font-family: 'Nunito', sans-serif;
@@ -79,12 +80,13 @@ p{
         font-size: xx-large;
     }
 
-    h4{
-        text-align: center;
-        font-size: 34px;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        padding: 5px 0 5px 0;
+    .container {   
+        display: list-item;
+        /* text-align: center; */
+    }
+    .project-card {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #home{

@@ -17,6 +17,12 @@ body{
     grid-template-columns: 250px auto;
 }
 
+.top .name h2:hover {
+    color: aqua;
+    cursor:pointer;
+}
+
+
 .links ul li{
     display: inline-block;
     padding-left: 40px;

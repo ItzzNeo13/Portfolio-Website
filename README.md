@@ -6,9 +6,11 @@ Icons on About Tab downloaded from [Icons8](https://icons8.com/)
 
 Languages - HTML and CSS
 
-------
+Last Update Changes - 
 
-TODO - 
-- [ ] Make webite responsive for devices with small screens
-- [ ] Make Projects tab better
-- [ ] Add Animations in Profile Tab
+- Added Animations for Profile Picture.
+- Changed About Information.
+- Added a alert box (Pure JS) that will pop-up after submitting the form in Contact Tab.
+- New Projects Tab look. 
+
+------
