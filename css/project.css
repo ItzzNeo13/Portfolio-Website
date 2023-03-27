@@ -75,7 +75,7 @@ h2{
     h2{
         text-align: center;
         color: #ffffff;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Jost', sans-serif;
         margin: 95px;
         font-size: xx-large;
     }
@@ -99,7 +99,7 @@ h2{
         float: left;
         font-size: xx-large;
         color: #f5f3f4;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Jost', sans-serif;
         font-size: 30px;
     }
 
@@ -107,7 +107,7 @@ h2{
         text-align: center;
         font-size: xx-large;
         color: #ffffff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Jost', sans-serif;
         margin-left: 65px;
         margin-right: 65px;
     }
@@ -139,11 +139,14 @@ h2{
     .project-card {
     width: 90%;
     margin: 10px 0;
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
     }
     
     .project-card p {
     font-size: 14px;
     padding: 5px 10px;
+    font-family: 'Jost', sans-serif;
     }
     
     button {
