@@ -45,6 +45,7 @@ img.pic:not(:hover){
 .home a{
     text-decoration: none;
     display: flex;
+    font-size: 20px;
     justify-content: center;
     color: #ffffff;
     font-family: 'Jost', sans-serif;
@@ -65,33 +66,67 @@ img.pic:not(:hover){
     color: #f5e6ee;
 }
 
-@media screen and (max-width: 1024px) {
-    body h3{
-        font-size: xx-large;
-        margin-top: 80px;
-        margin-bottom: 80px;
+/* Media queries */
+@media (max-width: 767px) { /* Small devices (phones) */
+    .pic{
+      width: 100px;
+      height: 100px;
     }
-    body center{
-        height: 250px;
-    }
-    body center #pic{
-        width: auto;
-        height: 250px;
-    }
-    body p{
-        margin: 72px 180px;
-        font-size: 26px;
+    
+    .txt{
+      font-size: 14px;
     }
 
-    /* Bottom */
-    .bottom .creds pre{
-        margin: 0;
-        height: 150px;
-        /* background-color: lightcoral; */
+    #home {
+        font-size: 16px;
     }
-    .bottom .creds pre p{
-        font-size: 26px;
-        text-align: left;
-        margin-left: 60px;
+    
+    .creds p{
+      font-size: 12px;
     }
-}
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) { /* Medium devices (tablets) */
+    .pic{
+      width: 150px;
+      height: 150px;
+    }
+    
+    .txt{
+      font-size: 15px;
+    }
+    
+    .creds p{
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) { /* Large devices (desktops) */
+    .pic{
+      width: 175px;
+      height: 175px;
+    }
+    
+    .txt{
+      font-size: 16px;
+    }
+    
+    .creds p{
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1200px) { /* Extra large devices (large desktops) */
+    .pic{
+      width: 200px;
+      height: 200px;
+    }
+    
+    .txt{
+      font-size: 17px;
+    }
+    
+    .creds p{
+      font-size: 18px;
+    }
+  }
