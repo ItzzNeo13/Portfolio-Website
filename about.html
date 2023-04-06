@@ -14,7 +14,7 @@
         <h3><b>ABOUT -</b></h3>
         <br>
         <br>
-        <img class="pic" src="./assets/profile-pic.png" alt="Developer Image">
+        <img class="pic" src="./assets/profile-pic.png" alt="avatar">
         <br>
         <br>
         <p class="txt"> 17. Based in Mumbai, India.
@@ -63,6 +63,9 @@
             </div>
             <br>
             <br>
+            <a id="resume-link" href="./resume.pdf">Download Resume</a>
+            <br>
+            <br>
             <br>
         </p>
         <div class="home"><a href="./index.html"><b>Return to Homepage</b></a></div>
@@ -71,6 +74,14 @@
         <br>
         <!--Main content end-->
     </body>
+    <!-- JavaScript for handling Resume  -->
+    <script>
+        const resumeLink = document.getElementById("resume-link");
+        resumeLink.addEventListener("click", function (event) {
+            event.preventDefault();
+            window.open(resumeLink.href, "_blank");
+        });
+    </script>
     <footer>
         <div class="bottom">
             <div class="creds">

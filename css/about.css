@@ -42,6 +42,20 @@ img.pic:not(:hover){
     justify-content: center;
 }
 
+#resume-link {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+}
+
+#resume-link:hover {
+  color: grey;
+}
+
 .home a{
     text-decoration: none;
     display: flex;
@@ -51,11 +65,13 @@ img.pic:not(:hover){
     font-family: 'Jost', sans-serif;
 }
 
+.home a:hover {
+  color: grey;
+}
+
 .creds p{
     display: inline-block;
     text-align: end;
-    /* margin-left: 60px; */
-    /* margin-top: 200px; */
     font-size: medium;
     color: #f5f3f4;
     font-family: 'Jost', sans-serif;
@@ -75,6 +91,10 @@ img.pic:not(:hover){
     
     .txt{
       font-size: 14px;
+    }
+
+    #resume-link {
+      font-size: 16px;
     }
 
     #home {
