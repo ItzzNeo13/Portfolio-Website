@@ -16,5 +16,5 @@ Last Update Changes -
 - Added a alert box (Pure JS) that will pop-up after submitting the form in Contact Tab.
 - New Projects Tab look. 
 - Added Resume to About.
-
+- Added Review Tab
 - - - - 
