@@ -1,0 +1,233 @@
+/* CSS for all screen sizes */
+body{
+    background-color: #10100D;
+    
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;
+}
+
+#review-window {
+    font-size: 16px;
+        width: 90vw;
+        margin-left: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        padding: 10px;
+        margin-bottom: 20px;
+}
+
+#review-container {
+    height: auto;
+    width: 80vw;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #060606;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#resource a {
+    text-decoration: none;
+    font-family: 'Work Sans' sans-serif;
+    color: #fff;
+  }
+
+#footer p{
+    text-align: center;
+    font-size: 14px;
+    opacity: 75%;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#home a{
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;
+}
+
+#home a:hover {
+    color: grey;
+  }
+  
+
+.creds p{
+    display: inline-block;
+    text-align: end;
+    font-size: medium;
+    color: #f5f3f4;
+    font-family: 'Jost', sans-serif;
+}
+
+.creds p a{
+    text-decoration: none;
+    color: #f5e6ee;
+}
+
+/* CSS for medium screen sizes */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #review-window {
+        font-size: 14px;
+        width: 90vw;
+        margin-left: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    #review-container {
+        height: auto;
+        width: 80vw;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #060606;
+        padding: 5px;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: justify;
+        color: #fff;
+        font-family: 'Work Sans', sans-serif;
+        padding: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #footer p {
+        text-align: center;
+        font-size: 12px;
+        opacity: 75%;
+        color: #fff;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    #home a {
+        text-decoration: none;
+        display: flex;
+        font-size: 16px;
+        justify-content: center;
+        color: #ffffff;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .creds p {
+        display: inline-block;
+        text-align: end;
+        font-size: small;
+        color: #f5f3f4;
+        font-family: 'Jost', sans-serif;
+    }
+}
+
+
+/* CSS for small screen sizes */
+
+@media (max-width: 768px) {
+    body{
+      background-color: #10100D;
+  
+    }
+  
+    h1{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Jost', sans-serif;
+    }
+  
+    #review-window {
+        font-size: 14px;
+        width: 95vw;
+        margin-left: 15px;
+        margin-right: 15px;
+        line-height: 1.5;
+        text-align: justify;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+  
+    #review-container {
+        height: auto;
+        width: 90vw;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #060606;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: justify;
+        color: #fff;
+        font-family: 'Work Sans', sans-serif;
+        padding: 5px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+  
+    #resource a {
+        text-decoration: none;
+        font-family: 'Work Sans' sans-serif;
+        color: #fff;
+      }
+  
+    #footer p{
+        text-align: center;
+        font-size: 12px;
+        opacity: 75%;
+        color: #fff;
+        font-family: 'Work Sans', sans-serif;
+    }
+  
+    #home a{
+        text-decoration: none;
+        display: flex;
+        font-size: 16px;
+        justify-content: center;
+        color: #ffffff;
+        font-family: 'Jost', sans-serif;
+    }
+  
+    #home a:hover {
+        color: grey;
+      }
+  
+    .creds p{
+        display: inline-block;
+        text-align: end;
+        font-size: small;
+        color: #f5f3f4;
+        font-family: 'Jost', sans-serif;
+    }
+  
+    .creds p a{
+        text-decoration: none;
+        color: #f5e6ee;
+    }
+  }
+  
