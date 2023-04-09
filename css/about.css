@@ -42,6 +42,10 @@ img.pic:not(:hover){
     justify-content: center;
 }
 
+.logos img {
+  width: 48px;
+}
+
 #resume-link {
   display: flex;
   justify-content: center;
@@ -82,71 +86,71 @@ img.pic:not(:hover){
     color: #f5e6ee;
 }
 
-/* Media queries */
-@media (max-width: 767px) { /* Small devices (phones) */
-    .pic{
-      width: 100px;
-      height: 100px;
-    }
-    
-    .txt{
-      font-size: 14px;
-    }
+/* For small screens */
+@media only screen and (max-width: 600px) {
+  .pic {
+    width: 150px;
+    height: 150px;
+  }
+  .txt {
+    font-size: 14px;
+  }
+  .logos img {
+    width: 30px;
+  }
+  #resume-link {
+    font-size: 16px;
+  }
+  .home a {
+    font-size: 16px;
+  }
+  .creds p {
+    font-size: 12px;
+  }
+}
 
-    #resume-link {
-      font-size: 16px;
-    }
+/* For medium screens */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  .pic {
+    width: 180px;
+    height: 180px;
+  }
+  .txt {
+    font-size: 16px;
+  }
+  .logos img {
+    width: 40px;
+  }
+  #resume-link {
+    font-size: 16px;
+  }
+  .home a {
+    font-size: 18px;
+  }
+  .creds p {
+    font-size: 14px;
+  }
+}
 
-    #home {
-        font-size: 16px;
-    }
-    
-    .creds p{
-      font-size: 12px;
-    }
+/* For large screens */
+@media only screen and (min-width: 961px) {
+  .pic {
+    width: 200px;
+    height: 200px;
   }
-  
-  @media (min-width: 768px) and (max-width: 991px) { /* Medium devices (tablets) */
-    .pic{
-      width: 150px;
-      height: 150px;
-    }
-    
-    .txt{
-      font-size: 15px;
-    }
-    
-    .creds p{
-      font-size: 14px;
-    }
+  .txt {
+    font-size: 17px;
   }
-  
-  @media (min-width: 992px) and (max-width: 1199px) { /* Large devices (desktops) */
-    .pic{
-      width: 175px;
-      height: 175px;
-    }
-    
-    .txt{
-      font-size: 16px;
-    }
-    
-    .creds p{
-      font-size: 16px;
-    }
+  .logos img {
+    width: 48px;
   }
-  
-  @media (min-width: 1200px) { /* Extra large devices (large desktops) */
-    .pic{
-      width: 200px;
-      height: 200px;
-    }
-    
-    .txt{
-      font-size: 17px;
-    }
-    
-    .creds p{
-      font-size: 18px;
-    }
+  #resume-link {
+    font-size: 18px;
   }
+  .home a {
+    font-size: 20px;
+  }
+  .creds p {
+    font-size: medium;
+  }
+}
