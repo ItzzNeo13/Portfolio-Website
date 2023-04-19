@@ -1,45 +1,92 @@
 body{
-    background-color: #10100D;
+  background-color: #10100D;
 }
 
-h3{
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Jost', sans-serif;
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a15;
+  margin-top: 0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-.pic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-    width: 200px;
-    height: 200px;
+#developer-name {
+  font-size: 28px;
+  margin: 0;
+  color: #f5f3f4;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#links li {
+  margin-right: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#links li:last-child {
+  margin-right: 0;
+}
+
+#links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #f5f3f4;
+  transition: all 0.2s ease-in-out;
+}
+
+#links a:hover {
+  color: #7e7c7c;
+}
+
+#navbar #developer-name:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+#page-title {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Jost', sans-serif;
+}
+
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
 }
 
 img.pic:hover {
-    border-radius: 50%;
-    transition: .7s ease;
+  border-radius: 50%;
+  transition: .7s ease;
 }
 
 img.pic:not(:hover){
-    border-radius: 0%;
-    transition: .7s ease-out;
-  }
-
-
-.txt{
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Jost', sans-serif;
-    font-size: 17px;
-    padding: 5px 0 5px 0;
+  border-radius: 0%;
+  transition: .7s ease-out;
 }
 
+.txt {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Jost', sans-serif;
+  font-size: 17px;
+  padding: 5px 0 5px 0;
+}
 
-.logos{
-    display: flex;
-    justify-content: center;
+.logos {
+  display: flex;
+  justify-content: center;
 }
 
 .logos img {
@@ -60,57 +107,116 @@ img.pic:not(:hover){
   color: grey;
 }
 
-.home a{
-    text-decoration: none;
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-    color: #ffffff;
-    font-family: 'Jost', sans-serif;
+footer {
+  background-color: #1a1a15;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 20px;
 }
 
-.home a:hover {
-  color: grey;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.creds p{
-    display: inline-block;
-    text-align: end;
-    font-size: medium;
-    color: #f5f3f4;
-    font-family: 'Jost', sans-serif;
+.footer-details {
+  color: #f5f3f4;
+  font-family: "Jost", sans-serif;
+  flex-basis: 60%;
+  text-align: left;
 }
 
-.creds p a{
-    text-decoration: none;
-    color: #f5e6ee;
+.footer-details a {
+  text-decoration: none;
+  color: #f5f3f4;
 }
 
 /* For small screens */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
+  body{
+    background-color: #10100D;
+  }
+
+  #navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #developer-name {
+    margin-bottom: 10px;
+  }
+
+  #links {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    top: 75px;
+    left: 0;
+    background-color: #242420;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #links li {
+    margin-right: 0;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  #page-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
   .pic {
     width: 150px;
     height: 150px;
   }
+
   .txt {
     font-size: 14px;
+    line-height: 1.5;
   }
+
+  .logos {
+    flex-wrap: wrap;
+  }
+
   .logos img {
     width: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
+
   #resume-link {
     font-size: 16px;
+    margin-top: 10px;
   }
-  .home a {
-    font-size: 16px;
-  }
-  .creds p {
+
+  footer {
     font-size: 12px;
+    padding: 10px;
   }
 }
-
 /* For medium screens */
 @media only screen and (min-width: 601px) and (max-width: 960px) {
+
+  #links {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    top: 75px;
+    left: 0;
+    background-color: #242420;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
   .pic {
     width: 180px;
     height: 180px;
@@ -129,28 +235,5 @@ img.pic:not(:hover){
   }
   .creds p {
     font-size: 14px;
-  }
-}
-
-/* For large screens */
-@media only screen and (min-width: 961px) {
-  .pic {
-    width: 200px;
-    height: 200px;
-  }
-  .txt {
-    font-size: 17px;
-  }
-  .logos img {
-    width: 48px;
-  }
-  #resume-link {
-    font-size: 18px;
-  }
-  .home a {
-    font-size: 20px;
-  }
-  .creds p {
-    font-size: medium;
   }
 }

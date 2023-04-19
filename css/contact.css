@@ -1,9 +1,59 @@
-*{
+body{
     background-color: #10100D;
     font-family: 'Jost', sans-serif;
     color: #ffffff;
-    margin-top: -22px;
 }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a15;
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #developer-name {
+    font-size: 28px;
+    margin: 0;
+    color: #f5f3f4;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  #links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #links li {
+    margin-right: 20px;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  #links li:last-child {
+    margin-right: 0;
+  }
+  
+  #links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f5f3f4;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #links a:hover {
+    color: #7e7c7c;
+  }
+  
+  #navbar #developer-name:hover {
+      color: aqua;
+      cursor:pointer;
+  }
+  
 
 #overlay {
     width: 100%;
@@ -72,7 +122,7 @@ textarea::-webkit-scrollbar-thumb {
     background-color: #ffffff;
 }
 
-.center {
+#note {
     text-align: center;
 }
 
@@ -87,7 +137,6 @@ input [type="submit"] {
     color: #ffffff;
     cursor: pointer;
     border-radius: 3px;
-    /* background: linear-gradient(to right, #130505, #ffffff); */
 }
 
 h3 a{
@@ -97,20 +146,40 @@ h3 a{
 
 }
 
-.creds p{
-    display: inline-block;
-    text-align: end;
-    /* margin-left: 60px; */
-    /* margin-top: 200px; */
-    font-size: medium;
-    color: #f5f3f4;
-    font-family: 'Jost', sans-serif;
-}
-
-.creds p a{
-    text-decoration: none;
+#send {
     color: #f5e6ee;
 }
+
+#send:hover {
+    cursor: pointer;
+}
+
+  footer {
+    background-color: #1a1a15;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-details {
+    color: #f5f3f4;
+    font-family: "Jost", sans-serif;
+    flex-basis: 60%;
+    text-align: left;
+  }
+  
+  .footer-details a {
+    text-decoration: none;
+    color: #f5f3f4;
+  }
+  
 .error {
     color: #ff0000;
 }
@@ -129,7 +198,7 @@ h3 a{
         font-size: 20px;
     }
 
-    #bth a{
+    #home a{
         font-size: 30px;
         margin: 50px;
     }
