@@ -46,7 +46,7 @@ body{
   }
   
   #links a:hover {
-    color: #7e7c7c;
+    color: #ada6a6;
   }
   
   #navbar #developer-name:hover {
@@ -104,10 +104,12 @@ input, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    color: #f5e6ee;
     resize: none;
     outline: none;
     border: none;
     border-bottom: 1px solid #333533;
+    font-family: 'Work Sans', sans-serif;
 }
 
 input [type="text"]:focus, textarea:focus {
