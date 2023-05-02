@@ -91,6 +91,12 @@ img.pic:not(:hover){
 
 .logos img {
   width: 48px;
+  opacity: 50%;
+}
+
+.logos img:hover {
+  transform: scale(105%);
+  opacity: 100%;
 }
 
 #resume-link {
@@ -104,7 +110,7 @@ img.pic:not(:hover){
 }
 
 #resume-link:hover {
-  color: grey;
+  color: #d3d3d3;
 }
 
 footer {
