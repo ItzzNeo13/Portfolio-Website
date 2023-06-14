@@ -6,7 +6,11 @@ var images = [ 'https://www.dropbox.com/s/memt4mc71ubv015/Credit-Card-checkout.j
     'https://www.dropbox.com/s/wpm5b1jlj2o1a76/brooklyn-club-ad.png?raw=1',  //club-poster
     'https://www.dropbox.com/s/nxf56tnfqtjqlqz/ganesh-chaturthi-wishes.png?raw=1', //wishes-graphic
     'https://www.dropbox.com/s/qvqpfqoouo4q1o3/InnovateX-card-mockup.png?raw=1',  // business-card-mockup
-    'https://www.dropbox.com/s/723uznv5afki0gl/Thank-you.png?raw=1' ]; // thank-you-card
+    'https://www.dropbox.com/s/ma5ab3gqpu17c0h/alpha-investments-mockup.png?raw=1', //alpha-investments-mockup
+    'https://www.dropbox.com/s/sp1dtq0yyidq46t/gym-poster.png?raw=1', // gym-poster
+    'https://www.dropbox.com/s/95ynd3tql6dh2xl/full-page-newspaper-ad.png?raw=1', //cafe-newspaper-ad
+    'https://www.dropbox.com/s/723uznv5afki0gl/Thank-you.png?raw=1', // thank-you-card
+    ]; 
 
 var num = 0;
 var imgElements = images.map(function(src) {
