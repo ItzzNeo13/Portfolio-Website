@@ -60,7 +60,7 @@ body{
     margin-left: 40px;
     margin-top: 35px;
     color: #f5f3f4;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .heading{
@@ -69,27 +69,61 @@ body{
     text-align: center;
 }
 
-.text {
-    border-right: 5px solid whitesmoke;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-            typing 2s,
-            cursor .4s step-end infinite alternate;
+.animated-text{
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
 }
 
-/* Cursor blinking */
-@keyframes cursor{
-    50%  { border-color: transparent; }
+.animated-text span{
+  position: relative;
 }
 
-/* Typing Effect */
-@keyframes typing{
-    from {width: 0;}
+.animated-text span::before{
+  content: "Welcome!";
+  color: #ffffff;
+  animation: words 12s infinite;
 }
 
-.intro {
+.animated-text span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #10100D;
+  border-left: 2px solid #ffffff;
+  right: -8px;
+  animation: cursor 1s infinite, typing 20s steps(17) infinite;
+}
+
+@keyframes cursor {
+  to{
+      border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,33%{
+      content: "Welcome!";
+  }
+  34%, 67%{
+    content: 'Willkommen!';
+  }
+  68%,100%{
+      content: "добро пожаловать!";
+  }
+}
+
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+      width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+      width: calc(100% + 8px);
+  }
+}
+
+.head .intro {
   margin: 50px auto;
   max-width: 600px;
   text-align: center;
@@ -196,7 +230,7 @@ margin-top: 100px;
 
 .heading h2 {
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .intro h5 {
