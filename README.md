@@ -6,7 +6,7 @@ Icons on About Tab downloaded from [Icons8](https://icons8.com/)
 
 Languages - HTML and CSS
 
-Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/6812be60-d0dc-4d93-b22b-f1f54abcfca7/deploy-status)]
+Status: ![Netlify Status](https://api.netlify.com/api/v1/badges/6812be60-d0dc-4d93-b22b-f1f54abcfca7/deploy-status)
 
 Last Update Changes - 
 - Added Animations for Profile Picture.
