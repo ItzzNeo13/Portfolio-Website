@@ -99,18 +99,9 @@ img.pic:not(:hover){
   opacity: 100%;
 }
 
-#resume-link {
-  display: flex;
-  justify-content: center;
+#portfolio-link {
+  text-decoration: underline;
   color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  font-family: 'Jost', sans-serif;
-}
-
-#resume-link:hover {
-  color: #d3d3d3;
 }
 
 footer {
@@ -196,6 +187,7 @@ footer {
     width: 30px;
     margin-right: 5px;
     margin-bottom: 5px;
+    opacity: 100%;
   }
 
   #resume-link {
@@ -232,6 +224,7 @@ footer {
   }
   .logos img {
     width: 40px;
+    opacity: 100%;
   }
   #resume-link {
     font-size: 16px;

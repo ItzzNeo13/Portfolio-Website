@@ -96,6 +96,8 @@ body{
   animation: cursor 1s infinite, typing 20s steps(17) infinite;
 }
 
+/* Greeting Keyframing */
+
 @keyframes cursor {
   to{
       border-left: 2px solid #ff7f5000;
