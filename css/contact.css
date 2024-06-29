@@ -1,14 +1,14 @@
 body{
-    background-color: #10100D;
-    font-family: 'Jost', sans-serif;
-    color: #ffffff;
+    background-color: #060606;
+    font-family: 'Oxygen', sans-serif;
+    color: #d6d6d7;
 }
 
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a1a15;
+    background-color: #191919;
     margin-top: 0;
     border-radius: 10px;
     padding: 20px;
@@ -18,8 +18,8 @@ body{
   #developer-name {
     font-size: 28px;
     margin: 0;
-    color: #f5f3f4;
-    font-family: 'Work Sans', sans-serif;
+    color: #d6d6d7;
+    font-family: 'Montserrat', sans-serif;
   }
   
   #links {
@@ -31,7 +31,7 @@ body{
   
   #links li {
     margin-right: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
   }
   
   #links li:last-child {
@@ -41,17 +41,17 @@ body{
   #links a {
     text-decoration: none;
     font-size: 16px;
-    color: #f5f3f4;
+    color: #d6d6d7;
     transition: all 0.2s ease-in-out;
   }
   
   #links a:hover {
-    color: #ada6a6;
+    color: #ada3a3;
   }
   
   #navbar #developer-name:hover {
-      color: aqua;
-      cursor:pointer;
+      color: #d24d2c;
+      cursor: auto;
   }
   
 
@@ -59,13 +59,13 @@ body{
     width: 100%;
     height: 100%;
     position: auto;
-    background-color: #10100D;
+    background-color: #060606;
 }
 
 form {
     max-width: 550px;
     width: 90%;
-    background: #10100d;
+    background: #191919;
     margin: 17vh auto 0 auto;
     padding: 40px;
     border-radius: 5px;
@@ -104,12 +104,12 @@ input, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    color: #f5e6ee;
+    color: #d6d6d7;
     resize: none;
     outline: none;
     border: none;
     border-bottom: 1px solid #333533;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 input [type="text"]:focus, textarea:focus {
@@ -121,7 +121,7 @@ textarea::-webkit-scrollbar {
 }
 
 textarea::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #d6d6d7;
 }
 
 #note {
@@ -136,7 +136,7 @@ input [type="submit"] {
     border: none;
     border-radius: 3px;
     padding: 10px;
-    color: #ffffff;
+    color: #d6d6d7;
     cursor: pointer;
     border-radius: 3px;
 }
@@ -144,12 +144,12 @@ input [type="submit"] {
 h3 a{
     font-size: 18px;
     text-decoration: none;
-    color: #f5e6ee;
+    color: #d6d6d7;
 
 }
 
 #send {
-    color: #f5e6ee;
+    color: #d6d6d7;
 }
 
 #send:hover {
@@ -171,16 +171,12 @@ h3 a{
   }
   
   .footer-details {
-    color: #f5f3f4;
+    color: #d6d6d7;
     font-family: "Jost", sans-serif;
     flex-basis: 60%;
     text-align: left;
   }
   
-  .footer-details a {
-    text-decoration: none;
-    color: #f5f3f4;
-  }
   
 .error {
     color: #ff0000;

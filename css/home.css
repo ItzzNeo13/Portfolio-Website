@@ -1,13 +1,13 @@
 /* CSS for all screen sizes */
 body{
-  background-color: #10100D;
+  background-color: #060606;
 }
 
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a15;
+  background-color: #191919;
   margin-top: 0;
   border-radius: 10px;
   padding: 20px;
@@ -17,8 +17,8 @@ body{
 #developer-name {
   font-size: 28px;
   margin: 0;
-  color: #f5f3f4;
-  font-family: 'Work Sans', sans-serif;
+  color: #d6d6d7;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #links {
@@ -30,7 +30,7 @@ body{
 
 #links li {
   margin-right: 20px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 #links li:last-child {
@@ -40,26 +40,25 @@ body{
 #links a {
   text-decoration: none;
   font-size: 16px;
-  color: #f5f3f4;
+  color: #d6d6d7;
   transition: all 0.2s ease-in-out;
 }
 
 #links a:hover {
-  color: #ada6a6;
+  color: #ada3a3;
 }
 
 #navbar #developer-name:hover {
-    color: aqua;
-    cursor:pointer;
+    color: #d24d2c;
+    cursor: auto;
 }
-
 
 .heading h2{
     display: inline-block;
     margin-left: 65px;
     margin-left: 40px;
     margin-top: 35px;
-    color: #f5f3f4;
+    color: #d6d6d7;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,7 +80,7 @@ body{
 
 .animated-text span::before{
   content: "Welcome!";
-  color: #ffffff;
+  color: #d24d2c;
   animation: words 12s infinite;
 }
 
@@ -90,8 +89,8 @@ body{
   position: absolute;
   width: calc(100% + 8px);
   height: 100%;
-  background-color: #10100D;
-  border-left: 2px solid #ffffff;
+  background-color: #060606;
+  border-left: 2px solid #d24d2c;
   right: -8px;
   animation: cursor 1s infinite, typing 20s steps(17) infinite;
 }
@@ -100,7 +99,7 @@ body{
 
 @keyframes cursor {
   to{
-      border-left: 2px solid #ff7f5000;
+      border-left: 2px solid #060606;
   }
 }
 
@@ -129,8 +128,8 @@ body{
   margin: 50px auto;
   max-width: 600px;
   text-align: center;
-  color: #f5f3f4;
-  font-family: "Jost", sans-serif;
+  color: #d6d6d7;
+  font-family: "Oxygen", sans-serif;
 }
 .name {
   font-size: 36px;
@@ -144,7 +143,7 @@ body{
 }
 
 footer {
-  background-color: #1a1a15;
+  background-color: #191919;
   padding: 20px;
   text-align: center;
   font-size: 14px;
@@ -158,18 +157,11 @@ footer {
 }
 
 .footer-details {
-  color: #f5f3f4;
-  font-family: "Jost", sans-serif;
+  color: #d6d6d7;
+  font-family: "Oxygen", sans-serif;
   flex-basis: 60%;
   text-align: left;
 }
-
-.footer-details a {
-  text-decoration: none;
-  color: #f5f3f4;
-}
-
-
 
 /* CSS for medium screens */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -178,7 +170,7 @@ footer {
     margin-top: 20px;
   }
   .top .name h2:hover {
-    color: aqua;
+    color: #d24d2c;
     cursor:pointer;
 }
 .links ul li {
@@ -218,7 +210,7 @@ margin-top: 100px;
     justify-content: space-around;
     top: 75px;
     left: 0;
-    background-color: #242420;
+    background-color: #191919;
     width: 100%;
     margin: 0;
     padding: 20px;

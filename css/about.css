@@ -1,5 +1,5 @@
 body{
-  background-color: #10100D;
+  background-color: #060606;
 }
 
 #navbar {
@@ -16,8 +16,8 @@ body{
 #developer-name {
   font-size: 28px;
   margin: 0;
-  color: #f5f3f4;
-  font-family: 'Work Sans', sans-serif;
+  color: #d6d6d7;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #links {
@@ -29,7 +29,7 @@ body{
 
 #links li {
   margin-right: 20px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 #links li:last-child {
@@ -39,23 +39,24 @@ body{
 #links a {
   text-decoration: none;
   font-size: 16px;
-  color: #f5f3f4;
+  color: #d6d6d7;
   transition: all 0.2s ease-in-out;
 }
 
 #links a:hover {
-  color: #ada6a6;
+  color: #ada3a3;
 }
 
 #navbar #developer-name:hover {
-  color: aqua;
-  cursor: pointer;
+  color: #d24d2c;
+  cursor: auto;
 }
 
 #page-title {
   text-align: center;
-  color: #ffffff;
-  font-family: 'Jost', sans-serif;
+  color: #d6d6d7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
 }
 
 .pic {
@@ -78,8 +79,8 @@ img.pic:not(:hover){
 
 .txt {
   text-align: center;
-  color: #ffffff;
-  font-family: 'Jost', sans-serif;
+  color: #d6d6d7;
+  font-family: 'Oxygen', sans-serif;
   font-size: 17px;
   padding: 5px 0 5px 0;
 }
@@ -101,11 +102,11 @@ img.pic:not(:hover){
 
 #portfolio-link {
   text-decoration: underline;
-  color: #ffffff;
+  color: #d6d6d7;
 }
 
 footer {
-  background-color: #1a1a15;
+  background-color: #191919;
   padding: 20px;
   text-align: center;
   font-size: 14px;
@@ -119,21 +120,17 @@ footer {
 }
 
 .footer-details {
-  color: #f5f3f4;
-  font-family: "Jost", sans-serif;
+  color: #d6d6d7;
+  font-family: "Oxygen", sans-serif;
   flex-basis: 60%;
   text-align: left;
 }
 
-.footer-details a {
-  text-decoration: none;
-  color: #f5f3f4;
-}
 
 /* For small screens */
 @media (max-width: 600px) {
   body{
-    background-color: #10100D;
+    background-color: #060606;
   }
 
   #navbar {
@@ -151,7 +148,7 @@ footer {
     justify-content: space-around;
     top: 75px;
     left: 0;
-    background-color: #242420;
+    background-color: #191919;
     width: 100%;
     margin: 0;
     padding: 20px;
@@ -209,15 +206,15 @@ footer {
     justify-content: space-around;
     top: 75px;
     left: 0;
-    background-color: #242420;
+    background-color: #191919;
     width: 100%;
     margin: 0;
     padding: 20px;
     text-align: center;
   }
   .pic {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
   }
   .txt {
     font-size: 16px;
